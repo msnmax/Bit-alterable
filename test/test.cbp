@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="JohnsonOneMonthCorrect.log 16 1024 1024 1024 16 3500 700 95 350 25 5 BFTL 45 ART RW Y 1 1000 6" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../論文參考資料/JohnsonOneMonthCorrect.log" />
+		<Unit filename="BFTL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BFTL.h" />
+		<Unit filename="BL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BL.h" />
+		<Unit filename="DISPOSABLE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DISPOSABLE.h" />
+		<Unit filename="FTL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FTL.h" />
+		<Unit filename="LRUList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LRUList.h" />
+		<Unit filename="NFTL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NFTL.h" />
+		<Unit filename="OutputResult.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OutputResult.h" />
+		<Unit filename="STRIPE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STRIPE.h" />
+		<Unit filename="flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="flash.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.h" />
+		<Unit filename="typedefine.h" />
+		<Unit filename="utility.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utility.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

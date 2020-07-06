@@ -1,0 +1,291 @@
+# depslib dependency file v1.0
+1559033919 source:c:\users\user\desktop\project\test\main.c
+	"main.h"
+	"FTL.h"
+	"NFTL.h"
+	"BL.h"
+	"STRIPE.h"
+	"DISPOSABLE.h"
+	"BFTL.h"
+
+1559033746 c:\users\user\desktop\project\test\main.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<time.h>
+	"utility.h"
+	"typedefine.h"
+	"flash.h"
+	"OutputResult.h"
+	"LRUList.h"
+
+1216029812 c:\users\user\desktop\project\test\utility.h
+	"typedefine.h"
+
+1216042456 c:\users\user\desktop\project\test\typedefine.h
+
+1223461188 c:\users\user\desktop\project\test\flash.h
+	"typedefine.h"
+
+1223460092 c:\users\user\desktop\project\test\outputresult.h
+
+1222011572 c:\users\user\desktop\project\test\lrulist.h
+	"typedefine.h"
+
+1215070548 c:\users\user\desktop\project\test\ftl.h
+	"typedefine.h"
+
+1216106732 c:\users\user\desktop\project\test\nftl.h
+	"typedefine.h"
+
+1216189336 c:\users\user\desktop\project\test\bl.h
+	"typedefine.h"
+
+1223883528 c:\users\user\desktop\project\test\stripe.h
+	"typedefine.h"
+
+1223889392 c:\users\user\desktop\project\test\disposable.h
+	"typedefine.h"
+
+1220456688 source:c:\users\user\desktop\project\test\bl.c
+	"main.h"
+	"BL.h"
+
+1223956008 source:c:\users\user\desktop\project\test\disposable.c
+	"main.h"
+	"DISPOSABLE.h"
+
+1560263376 source:c:\users\user\desktop\project\test\flash.c
+	"main.h"
+	"flash.h"
+
+1222336456 source:c:\users\user\desktop\project\test\ftl.c
+	"main.h"
+	"FTL.h"
+
+1245056688 source:c:\users\user\desktop\project\test\lrulist.c
+	"main.h"
+	"LRUList.h"
+	"DISPOSABLE.h"
+
+1221798376 source:c:\users\user\desktop\project\test\nftl.c
+	"main.h"
+	"NFTL.h"
+
+1224431700 source:c:\users\user\desktop\project\test\outputresult.c
+	"main.h"
+	"OutputResult.h"
+	"flash.h"
+	<math.h>
+
+1558422718 source:c:\users\user\desktop\project\test\stripe.c
+	"main.h"
+	"STRIPE.h"
+
+1223826960 source:c:\users\user\desktop\project\test\utility.c
+	"main.h"
+	"utility.h"
+	"OutputResult.h"
+
+1559034558 c:\users\user\desktop\project\test\bftl.h
+	"typedefine.h"
+
+1560258683 source:c:\users\user\desktop\project\test\bftl.c
+	"main.h"
+	"BFTL.h"
+
+1594013118 source:c:\users\gpu-1605\desktop\test\bftl.c
+	"main.h"
+	"BFTL.h"
+	<time.h>
+
+1572451978 c:\users\gpu-1605\desktop\test\main.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<time.h>
+	"utility.h"
+	"typedefine.h"
+	"flash.h"
+	"OutputResult.h"
+	"LRUList.h"
+
+1561249990 c:\users\gpu-1605\desktop\test\utility.h
+	"typedefine.h"
+
+1561249990 c:\users\gpu-1605\desktop\test\typedefine.h
+
+1572446522 c:\users\gpu-1605\desktop\test\flash.h
+	"typedefine.h"
+
+1561249986 c:\users\gpu-1605\desktop\test\outputresult.h
+
+1561249986 c:\users\gpu-1605\desktop\test\lrulist.h
+	"typedefine.h"
+
+1564994077 c:\users\gpu-1605\desktop\test\bftl.h
+	"typedefine.h"
+
+1561249982 source:c:\users\gpu-1605\desktop\test\bl.c
+	"main.h"
+	"BL.h"
+
+1561249982 c:\users\gpu-1605\desktop\test\bl.h
+	"typedefine.h"
+
+1561249982 source:c:\users\gpu-1605\desktop\test\disposable.c
+	"main.h"
+	"DISPOSABLE.h"
+
+1561249982 c:\users\gpu-1605\desktop\test\disposable.h
+	"typedefine.h"
+
+1572277248 source:c:\users\gpu-1605\desktop\test\flash.c
+	"main.h"
+	"flash.h"
+
+1574344594 source:c:\users\gpu-1605\desktop\test\ftl.c
+	"main.h"
+	"FTL.h"
+
+1572278681 c:\users\gpu-1605\desktop\test\ftl.h
+	"typedefine.h"
+
+1561249986 source:c:\users\gpu-1605\desktop\test\lrulist.c
+	"main.h"
+	"LRUList.h"
+	"DISPOSABLE.h"
+
+1572455869 source:c:\users\gpu-1605\desktop\test\main.c
+	"main.h"
+	"FTL.h"
+	"NFTL.h"
+	"BL.h"
+	"STRIPE.h"
+	"DISPOSABLE.h"
+	"BFTL.h"
+
+1561249988 c:\users\gpu-1605\desktop\test\nftl.h
+	"typedefine.h"
+
+1561249988 c:\users\gpu-1605\desktop\test\stripe.h
+	"typedefine.h"
+
+1571341182 source:c:\users\gpu-1605\desktop\test\nftl.c
+	"main.h"
+	"NFTL.h"
+
+1572461366 source:c:\users\gpu-1605\desktop\test\outputresult.c
+	"main.h"
+	"OutputResult.h"
+	"flash.h"
+	<math.h>
+
+1561249986 source:c:\users\gpu-1605\desktop\test\stripe.c
+	"main.h"
+	"STRIPE.h"
+
+1571971296 source:c:\users\gpu-1605\desktop\test\utility.c
+	"main.h"
+	"utility.h"
+	"OutputResult.h"
+
+1570469564 source:c:\users\user\desktop\test\bftl.c
+	"main.h"
+	"BFTL.h"
+	<time.h>
+
+1561249986 c:\users\user\desktop\test\main.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<time.h>
+	"utility.h"
+	"typedefine.h"
+	"flash.h"
+	"OutputResult.h"
+	"LRUList.h"
+
+1561249990 c:\users\user\desktop\test\utility.h
+	"typedefine.h"
+
+1561249990 c:\users\user\desktop\test\typedefine.h
+
+1570463522 c:\users\user\desktop\test\flash.h
+	"typedefine.h"
+
+1561249986 c:\users\user\desktop\test\outputresult.h
+
+1561249986 c:\users\user\desktop\test\lrulist.h
+	"typedefine.h"
+
+1564994077 c:\users\user\desktop\test\bftl.h
+	"typedefine.h"
+
+1561249982 source:c:\users\user\desktop\test\bl.c
+	"main.h"
+	"BL.h"
+
+1561249982 c:\users\user\desktop\test\bl.h
+	"typedefine.h"
+
+1561249982 source:c:\users\user\desktop\test\disposable.c
+	"main.h"
+	"DISPOSABLE.h"
+
+1561249982 c:\users\user\desktop\test\disposable.h
+	"typedefine.h"
+
+1570463524 source:c:\users\user\desktop\test\flash.c
+	"main.h"
+	"flash.h"
+
+1570353033 source:c:\users\user\desktop\test\ftl.c
+	"main.h"
+	"FTL.h"
+
+1561249982 c:\users\user\desktop\test\ftl.h
+	"typedefine.h"
+
+1561249986 source:c:\users\user\desktop\test\lrulist.c
+	"main.h"
+	"LRUList.h"
+	"DISPOSABLE.h"
+
+1565939463 source:c:\users\user\desktop\test\main.c
+	"main.h"
+	"FTL.h"
+	"NFTL.h"
+	"BL.h"
+	"STRIPE.h"
+	"DISPOSABLE.h"
+	"BFTL.h"
+
+1561249988 c:\users\user\desktop\test\nftl.h
+	"typedefine.h"
+
+1561249988 c:\users\user\desktop\test\stripe.h
+	"typedefine.h"
+
+1561249986 source:c:\users\user\desktop\test\nftl.c
+	"main.h"
+	"NFTL.h"
+
+1561249988 source:c:\users\user\desktop\test\outputresult.c
+	"main.h"
+	"OutputResult.h"
+	"flash.h"
+	<math.h>
+
+1561249986 source:c:\users\user\desktop\test\stripe.c
+	"main.h"
+	"STRIPE.h"
+
+1561249990 source:c:\users\user\desktop\test\utility.c
+	"main.h"
+	"utility.h"
+	"OutputResult.h"
+
