@@ -38,7 +38,7 @@ BFTLElement_t *LPE0=NULL;
 int overflow=0;
 int watchbug;
 
-//¬dªí
+//æŸ¥è¡¨
 float PageWriteTime[1024];
 float PageEraseTime[1024];
 float BlockEraseTime[1024];
@@ -770,7 +770,7 @@ void BFTLEraseOneBlock(flash_size_t BlockID)
 	AvgErase=AccessStatistics.TotalBlockEraseCount/MaxBlock;
 
     //can change block erase count to detect block type
-	if(BlockEraseCnt[BlockID]<AvgErase){
+	if(BlockEraseCnt[BlockID]<MaxBlockEraseCnt*4/5){
         if(BlockMSB[BlockID]==0){
             LPE0=InsertBlock(LPE0,BlockID);
             BlockType[BlockID]=1;
@@ -931,7 +931,7 @@ void BFTLEraseOnePage(flash_size_t BlockID)
     AvgErase=AccessStatistics.TotalBlockEraseCount/MaxBlock;
 
     if(FreePageCnt[BlockID]!=0){
-        if(BlockEraseCnt[BlockID]<=AvgErase){
+        if(BlockEraseCnt[BlockID]<=MaxBlockEraseCnt*4/5){
             if(FreePageCnt[BlockID]==putblock0){
                 LPE0=InsertBlock(LPE0,BlockID);
                 BlockType[BlockID]=1;
@@ -979,8 +979,8 @@ void BFTLEraseOnePage(flash_size_t BlockID)
 
 
 //# ****************************************************************
-//# GC¹w¯dªÅ¶¡¬°7.5%
-//# ¦]»P¶Ç²ÎGC¤£¦P¤£·|¥X²{©Ò¦³Blockªº©Ò¦³page¤w¥Î§¹ªºª¬ªp
+//# GCé ç•™ç©ºé–“ç‚º7.5%
+//# å› èˆ‡å‚³çµ±GCä¸åŒä¸æœƒå‡ºç¾æ‰€æœ‰Blockçš„æ‰€æœ‰pageå·²ç”¨å®Œçš„ç‹€æ³
 
 //# ****************************************************************
 static void BFTLGarbageCollection(void)
